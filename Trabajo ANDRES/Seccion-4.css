@@ -1,0 +1,77 @@
+.Getstared {
+    align-items: center;
+}
+
+.imagenmorada {
+    margin-top: 40px;
+    border: 3px gold solid;
+    padding: 15px;
+    background-color: #4B2A80;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.imagenmorada i {
+    color: gold;
+    font-size: 50px;
+}
+
+.seccion-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.CajaMorada {
+    width: 90%;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    border-radius: 50px;
+    color: #fff;
+    border: 20px solid;
+
+    align-items: center;
+    text-align: center;
+    background-color: #80D0C7;
+    background-color: #e7efef;
+    background-color: #4158D0;
+    background: rgb(140, 140, 175);
+    box-shadow: rgba(142, 68, 173, 0.81) 5px 5px 66px 2px;
+    justify-content: center;
+    background: linear-gradient(124deg, rgba(140, 140, 175, 1) 1%, rgba(110, 68, 156, 1) 24%);
+}
+.Textos h2 {
+    font-size: 1.5em;
+
+}
+
+.Textos {
+    font: 2em sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+
+.Getstared {
+    transition: all 1s ease;
+    margin-bottom: 40px;
+    background-color: #F4D03F;
+    width: 15%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px white solid;
+    font: 1.5em sans-serif;
+    cursor: pointer;
+    color: #6E2C00;
+    -webkit-box-shadow: 0px 87px 123px 32px rgba(40, 116, 166, 0.31);
+    -moz-box-shadow: 0px 87px 123px 32px rgba(40, 116, 166, 0.31);
+    box-shadow: 0px 87px 123px 32px rgba(40, 116, 166, 0.31);
+}
+
+.Getstared:hover {
+
+    scale: 1.05;
+    background: #fff;
+    color: #6E2C00 !important;
+
+}

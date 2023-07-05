@@ -1,0 +1,158 @@
+.seccion-6 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.imgFn {
+    display: flex;
+    justify-content: center;
+    width: 10px;
+
+}
+
+.img {
+    box-shadow: rgb(225, 184, 242) -75px -21px 100px, rgb(135, 179, 207) 25px 30px 62px;
+    margin-top: 50px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 34%;
+    border: 20px #fff solid;
+    border-radius: 50% 50% 20px 20px;
+    background: rgb(144, 109, 179);
+    background: linear-gradient(0deg, rgba(144, 109, 179, 1) 22%, rgba(34, 193, 195, 1) 81%);
+    box-shadow: rgb(225, 184, 242) -75px
+}
+
+.imgcat {
+    width: 450px;
+    margin-top: -80px;
+    display: flex;
+    justify-content: center;
+}
+
+.imginformacion {
+    display: flex;
+}
+
+.testimonios {
+    align-items: center;
+    display: flex;
+    font-size: 1.5em;
+    color: #8E44AD;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cajacontenedoraP2 p {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #515A5A;
+    font-size: 1.5em;
+}
+
+.imginformacionFN {
+
+    background: rgb(173, 159, 215);
+    background: linear-gradient(144deg, rgba(173, 159, 215, 1) 8%, rgba(123, 89, 159, 1) 28%);
+    border-radius: 15px;
+    color: gold;
+    padding: 12.5px;
+    width: 25px;
+    height: 25px;
+    margin-right: 3%;
+}
+
+.TextInfor2 {
+    margin: 10px white;
+    transition: all 1s ease;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #F5EFFF;
+    ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #515A5A;
+    font-size: 1.5em
+}
+
+.TextInfor2:hover {
+
+    -webkit-box-shadow: 10px 10px 89px -5px rgba(175, 122, 197, 0.85);
+    -moz-box-shadow: 10px 10px 89px -5px rgba(175, 122, 197, 0.85);
+    box-shadow: 10px 10px 89px -5px rgba(175, 122, 197, 0.85);
+    background-color: white;
+    scale: 1.005;
+    transition: all 1s ease;
+}
+
+.TextInfor2:hover h2 {
+    color: #4B2A80;
+}
+
+.TextInfor2:hover h4 {
+    color: #4B2A80;
+}
+
+.TextInfor2:hover .imginformacionFn2 {
+    background-color: gold;
+    transition: all 1s ease 0s;
+}
+
+.TextInfor2 h2 {
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.TextInfor2 h4 {
+    margin-top: 0px;
+}
+
+.imginformacionFn2 {
+    transition: all 1s ease;
+    justify-content: center;
+    display: flex;
+    background-color: #C39BD3;
+    border-radius: 15px;
+    color: white;
+    padding: 12.5px;
+    width: 25px;
+}
+
+.imginformacionFn2 i {
+    font-size: 20px;
+}
+
+.circulofn {
+
+    gap: 5px;
+    margin-left: 90%;
+    display: flex;
+    justify-content: right;
+    width: 30px;
+    height: 30px;
+
+}
+
+.botonfinal {
+    transition: all 1s ease;
+    border-color: white;
+    cursor: pointer;
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    width: 100px;
+}
+
+.botonfinal:hover {
+    scale: 1.05;
+    background-color: gold;
+    cursor: pointer;
+    transition: all 1s ease;
+    border-radius: 100px;
+    align-items: center;
+    width: 100px;
+}

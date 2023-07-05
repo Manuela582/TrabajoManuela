@@ -1,0 +1,114 @@
+.Items {
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    background-color: #C39BD3;
+    color: #fff;
+    border-radius: 6px;
+    width: 20px;
+    margin-left: 2%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Union1 h2 {
+    display: flex;
+    font-size: 20px;
+}
+
+.subbox1 {
+    transition: all 1s ease;
+    padding: 20px;
+    color: #515A5A;
+    border-radius: 30px;
+    border: 10px #fff solid;
+    background-color: #F5EEF8;
+    text-align: center;
+    flex-direction: column;
+}
+
+.subbox1:hover {
+    scale: 1.1;
+    transition: all 1s ease;
+    cursor: pointer;
+    background-color: #fff;
+    -webkit-box-shadow: 5px 82px 176px 8px rgba(144, 148, 151, 0.55);
+    -moz-box-shadow: 5px 82px 176px 8px rgba(144, 148, 151, 0.55);
+    box-shadow: 5px 82px 176px 8px rgba(144, 148, 151, 0.55);
+}
+
+.subbox1:hover .Items {
+    background-color: #F4D03F;
+    transition: all 1s ease;
+}
+
+.Cajaprincipal1 {
+    width: 40%;
+}
+
+.Cajaprincipal2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.caja1 {
+    color: #515A5A;
+    font-size: 1.4em;
+}
+.CajaFlex1 {
+
+    justify-content: space-between;
+    display: flex;
+    gap: 100px;
+
+    align-items: flex-start;
+}
+
+.CajaFlex2 {
+
+    justify-content: space-between;
+
+    display: flex;
+    gap: 100px;
+}
+.CajaFlex1 {
+    display: flex;
+
+    margin-bottom: 5%;
+
+}
+
+.CajaFlex2 {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 5%;
+}
+.imggrande2 {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52%;
+    height: 515px;
+    border: 20px #fff solid;
+    border-radius: 50% 50% 20px 20px;
+    background: rgb(144, 109, 179);
+    background: linear-gradient(0deg, rgba(144, 109, 179, 1) 22%, rgba(34, 193, 195, 1) 81%);
+    box-shadow: rgb(225, 184, 242) -75px -21px 100px, rgb(135, 179, 207) 25px 30px 62px;
+}
+.imgwebcat {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.imgcatweb {
+    width: 40em;
+}
+.Textos {
+    text-align: center;
+}

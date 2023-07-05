@@ -1,0 +1,99 @@
+footer {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+
+
+}
+
+.Footer-root{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LogoFinal {
+
+    margin: 1px 0px 0px 0px;
+    width: 20%;
+    font-size: 1.25em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.UnionFN {
+    color: #8E44AD;
+    display: flex;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imglogo {
+    color: gold;
+    margin-right: 2%;
+}
+
+.ListaFinal {
+    color: #8E44AD;
+    margin-right: 25px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Listas ul {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 60px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+
+}
+
+.Listas li {
+    margin-bottom: 15px;
+}
+
+.ListaFinal:hover ul {
+    color: black;
+
+
+}
+
+.linksFn {
+    text-decoration: none;
+}
+
+.StyleLi:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+.Derechos {
+    color: #4B2A80;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Union {
+    display: flex;
+
+}
+
+.Unionfn {
+    display: flex;
+    gap: 20px;
+}
