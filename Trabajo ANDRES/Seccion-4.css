@@ -1,26 +1,12 @@
-.Getstared {
-    align-items: center;
-}
-
-.imagenmorada {
-    margin-top: 40px;
-    border: 3px gold solid;
-    padding: 15px;
-    background-color: #4B2A80;
-    display: flex;
-    border-radius: 20px;
-    justify-content: center;
-}
-
-.imagenmorada i {
-    color: gold;
-    font-size: 50px;
-}
-
+/*Seccion-4 Get stared*/ 
 .seccion-4 {
     display: flex;
     justify-content: center;
 }
+.seccion-4 {
+    margin-top: 25%;
+}
+/*Seccion-4 Get stared Caja morada*/ 
 
 .CajaMorada {
     width: 90%;
@@ -41,17 +27,38 @@
     justify-content: center;
     background: linear-gradient(124deg, rgba(140, 140, 175, 1) 1%, rgba(110, 68, 156, 1) 24%);
 }
+/*Seccion-4 Get stared caraja, imgenmorada,textos y botton*/ 
+
+.imagenmorada {
+    margin-top: 40px;
+    border: 3px gold solid;
+    padding: 15px;
+    background-color: #4B2A80;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.imagenmorada i {
+    color: gold;
+    font-size: 50px;
+}
+.Textos {
+    text-align: center;
+}
+
+.Getstared {
+    align-items: center;
+}
 .Textos h2 {
     font-size: 1.5em;
 
 }
-
 .Textos {
     font: 2em sans-serif;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 30px;
 }
-
 .Getstared {
     transition: all 1s ease;
     margin-bottom: 40px;

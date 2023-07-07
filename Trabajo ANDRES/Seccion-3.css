@@ -1,3 +1,109 @@
+/*Seccion-3*/
+.seccion-3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+
+    justify-content: space-around;
+    margin: 10% 0% 10% 0%;
+
+}
+.Cajaprincipal1 {
+    width: 40%;
+}
+.Cajaprincipal1 {
+    width: 30%;
+    margin-bottom: 50px;
+}
+/*Seccion-3 imagen de gato #2*/
+.imggrande2 {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52%;
+    height: 515px;
+    border: 20px #fff solid;
+    border-radius: 50% 50% 20px 20px;
+    background: rgb(144, 109, 179);
+    background: linear-gradient(0deg, rgba(144, 109, 179, 1) 22%, rgba(34, 193, 195, 1) 81%);
+    box-shadow: rgb(225, 184, 242) -75px -21px 100px, rgb(135, 179, 207) 25px 30px 62px;
+}
+.imggrande2 {
+    height: 350px;
+}
+.imgwebcat {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.imgwebcat {
+    height: 500px;
+}
+.imgcatweb {
+    width: 40em;
+}
+/*Seccion-3 Caja principal2*/
+
+.seccion-3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.Cajaprincipal2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.cajaprincipal2 {
+    justify-content: center;
+    text-align: center;
+    margin: 10% 0% 10% 0%;
+    height: 100%;
+
+}
+.caja1 {
+    color: #515A5A;
+    font-size: 1.4em;
+   
+}
+/*Seccion-3 our value to help you*/ 
+.Unionh1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    color: #8E44AD;
+    align-items: center;
+    gap: 2%;
+}
+
+.Union h2 {
+    color: #515A5A;
+}
+
+.imginformacion {
+    display: flex;
+}
+.imginformacion {
+
+    border: #8E44AD 1px solid;
+    background: rgb(173, 159, 215);
+    background: linear-gradient(144deg, rgba(173, 159, 215, 1) 8%, rgba(123, 89, 159, 1) 28%);
+    border-radius: 6px;
+    color: gold;
+    padding: 10px;
+    width: 30px;
+    justify-content: center;
+}
+
+.imginformacion i {
+    font-size: 30px;
+
+}
+
 .Items {
     border: 1px solid;
     padding: 10px;
@@ -12,10 +118,31 @@
     justify-content: center;
 }
 
-.Union1 h2 {
+
+
+/*Seccion-3 our value to help you cajaflex y sus elementos*/ 
+.CajaFlex1 {
+
+    justify-content: space-between;
     display: flex;
-    font-size: 20px;
+    gap: 100px;
+
+    align-items: flex-start;
 }
+
+.CajaFlex1 {
+    display: flex;
+
+    margin-bottom: 5%;
+
+}
+.CajaFlex1 {
+    gap: 0px;
+
+}
+
+/*Seccion-3 our value to help you sub-box*/ 
+
 
 .subbox1 {
     transition: all 1s ease;
@@ -43,72 +170,59 @@
     transition: all 1s ease;
 }
 
-.Cajaprincipal1 {
-    width: 40%;
+.subbox1 {
+    height: 170px;
+
 }
 
-.Cajaprincipal2 {
+.subbox1 p br {
+    display: none;
+
+}
+
+.Unionh1 h1 {
+    font-size: 35px;
+}
+/*Seccion-3 our value to help you Union1*/
+.Union1 h2 {
+    font-size: 20px;
+
+}
+.Union1 h2 {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-
+    font-size: 20px;
 }
-.caja1 {
-    color: #515A5A;
-    font-size: 1.4em;
-}
-.CajaFlex1 {
-
-    justify-content: space-between;
+/*Seccion-3 our value to help you Items*/
+.Items {
+    border: 1px solid;
+    padding: 10px;
     display: flex;
-    gap: 100px;
-
-    align-items: flex-start;
-}
-
-.CajaFlex2 {
-
-    justify-content: space-between;
-
-    display: flex;
-    gap: 100px;
-}
-.CajaFlex1 {
-    display: flex;
-
-    margin-bottom: 5%;
-
-}
-
-.CajaFlex2 {
-    display: flex;
-    justify-content: space-between;
-
-    margin-bottom: 5%;
-}
-.imggrande2 {
-    padding: 50px;
-    display: flex;
+    background-color: #C39BD3;
+    color: #fff;
+    border-radius: 6px;
+    width: 20px;
+    margin-left: 2%;
+    height: 20%;
     align-items: center;
     justify-content: center;
-    width: 52%;
-    height: 515px;
-    border: 20px #fff solid;
-    border-radius: 50% 50% 20px 20px;
-    background: rgb(144, 109, 179);
-    background: linear-gradient(0deg, rgba(144, 109, 179, 1) 22%, rgba(34, 193, 195, 1) 81%);
-    box-shadow: rgb(225, 184, 242) -75px -21px 100px, rgb(135, 179, 207) 25px 30px 62px;
 }
-.imgwebcat {
+/*Seccion-3 our value to help you cajaflex2 y sus elementos*/ 
+
+.CajaFlex2 {
+
+    justify-content: space-between;
+
     display: flex;
-    justify-content: center;
-    width: 100%;
-
+    gap: 100px;
 }
 
-.imgcatweb {
-    width: 40em;
+.CajaFlex2 {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 5%;
 }
-.Textos {
-    text-align: center;
+
+.CajaFlex2 {
+    gap: 0px;
 }

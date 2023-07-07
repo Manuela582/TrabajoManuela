@@ -1,3 +1,5 @@
+/*Seccion-2*/
+/*our best programs seccion imagenes*/
 .imagenes {
     margin-top: 50px;
     justify-content: space-between;
@@ -7,11 +9,29 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #8E44AD;
 }
+.imagenes {
+    display: flex;
+
+    padding: 5px;
+}
+
 
 .imagenes h1 {
     margin-right: 69%;
     font-size: 2em;
 }
+.imagenes {
+    flex-wrap: wrap;
+
+    text-align: center;
+
+}
+
+.imagenes h1 {
+    margin-right: 55%;
+
+}
+
 .imginformacion {
 
     border: #8E44AD 1px solid;
@@ -22,13 +42,14 @@
     padding: 10px;
     width: 30px;
     justify-content: center;
-
 }
 
 .imginformacion i {
     font-size: 30px;
 
 }
+  /*our best programs seccion notones de circulo*/
+
 .circulo {
     margin-bottom: 35px;
     gap: 10px;
@@ -37,13 +58,11 @@
     justify-content: center;
     width: 50px;
     height: 30px;
-
 }
 
 .boton1 i {
     display: flex;
     font-size: 25px;
-
     align-items: center;
 }
 
@@ -57,19 +76,21 @@
     display: flex;
     border-radius: 100px;
     align-items: center;
-
-
-
 }
-
 .boton1:hover {
 
     background-color: gold;
     cursor: pointer;
     border-radius: 100px;
     align-items: center;
-
 }
+/*our best programs seccion Menu Healthy*/
+.imginformacion {
+    display: flex;
+}
+
+
+
 .Informacion {
     margin-right: 2.5%;
     margin-left: 2.5%;
@@ -84,19 +105,15 @@
     -moz-box-shadow: 5px 5px 66px 2px rgba(142, 68, 173, 0.81);
     box-shadow: 5px 5px 66px 2px rgba(142, 68, 173, 0.81);
     align-items: center;
+    
+}
+.Informacion {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.imagenpequeña {
-    border: 2px #fff solid;
-    padding: 20px;
-    width: 2px;
-    height: 2px;
-    align-items: center;
-    margin: 10% 30% 0% 40%;
-    border-radius: 10px;
-    justify-content: center;
-    display: flex;
-}
+/*our best programs seccion Menu Healthy contenido*/
+
 .contenido {
     transition: all 1s ease;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -108,6 +125,7 @@
     padding-bottom: 40px;
 
 }
+
 .contenido:hover {
 
     scale: 1.05;
@@ -144,6 +162,24 @@
     display: block;
 
 }
+/*our best programs seccion Menu Healthy contenido*/
+.imagenpequeña {
+    border: 2px #fff solid;
+    padding: 20px;
+    width: 2px;
+    height: 2px;
+    align-items: center;
+    margin: 10% 30% 0% 40%;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+
 .LEER {
 
     display: none;
@@ -179,6 +215,8 @@
     transform: translateY(-100%);
     transform: translateY(-10px);
 }
+
+
 .contenido {
    
     transition: all 1s ease;
@@ -186,7 +224,4 @@
     align-items: center;
     justify-content: center;
 
-}
-.Union h2 {
-    color: #515A5A;
 }

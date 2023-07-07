@@ -1,3 +1,10 @@
+/* Encabezado Seccion*/
+body {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
 .Encabezado {
     display: flex;
     flex-wrap: wrap;
@@ -6,85 +13,6 @@
     margin-right: 20px;
     align-items: center;
 }
-
-.lista {
-    display: flex;
-    list-style-type: none;
-    gap: 20px;
-    color: #F9E79F;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-
-.links {
-    display: flex;
-    gap: 15%;
-    align-items: center;
-}
-
-.caja-mayor {
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.Herbalife {
-    display: flex;
-    gap: 100px;
-}
-
-.caja {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-    align-items: center;
-}
-
-.caja h2 {
-    font-size: 4em;
-    color: #fff;
-}
-
-.caja p {
-    font-size: 20px;
-    color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 40%;
-}
-
-.imagen1 {
-
-
-    align-items: center;
-    justify-content: center;
-
-
-}
-
-.Imagen1edit {
-    margin-left: 50px;
-
-}
-
-.imagen {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25%;
-    height: 10%;
-    border: 20px #fff solid;
-    border-radius: 50% 50% 20px 20px;
-    background-image: linear-gradient(120deg, #D7BDE2, #8E44AD);
-    -webkit-box-shadow: 2px 28px 60px 27px rgba(136, 78, 160, 0.86);
-    -moz-box-shadow: 2px 28px 60px 27px rgba(136, 78, 160, 0.86);
-    box-shadow: 2px 28px 60px 27px rgba(136, 78, 160, 0.86);
-}
-
-.Imagen1edit {
-    display: flex;
-    justify-content: center;
-}
-
 .box-item {
     gap: 10px;
     display: flex;
@@ -92,7 +20,6 @@
     color: gold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .Eatly {
     margin-right: 5px;
     color: white;
@@ -102,33 +29,15 @@
 
     color: #F9E79F;
 }
-.Herbalife {
-  
-    background: rgb(255, 255, 255);
-    background: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(225, 187, 241, 1) 68%, rgba(255, 255, 255, 1) 100%);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.Herbalife h2 {
-    margin-left: 20%;
-    gap: 50px;
-    color: #909497
-}
-
-.emerson {
+.lista {
     display: flex;
-    align-items: center;
-    margin-left: 20%;
-    color: #909497;
-}
+    list-style-type: none;
+    gap: 20px;
+    color: #F9E79F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-.Herbalifebox {
-    display: flex;
-    align-items: center;
-    color: #909497
 }
-
+/*Seccion del Primer boton lets talk */
 .BTN1 {
     transition: all 1s ease;
     font: 1.05em sans-serif;
@@ -147,7 +56,45 @@
     background-color: white;
     border-color: white;
 }
+/* Seccion-1*/
 
+/*Caja mayor*/
+.caja-mayor{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/*Caja y sus modificadores*/
+.caja {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    align-items: center;
+}
+
+.caja h2 {
+    font-size: 4em;
+    color: #fff;
+}
+
+.caja p {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 40%;
+}
+.caja p {
+    margin: 0px;
+    margin-bottom: 25px;
+}
+/* Links de botones Explore Menu and Play Video */
+.links {
+    display: flex;
+    gap: 15%;
+    align-items: center;
+}
+/*Ubicacion de boton explore menu*/
 .BTN2box {
     transition: all 1s ease;
     display: flex;
@@ -176,7 +123,7 @@
     background-color: white;
     border-color: white;
 }
-
+/*Ubicacion de boton de play video y sus modificadores*/
 .Video {
     display: inline-flex;
     justify-content: center;
@@ -225,8 +172,6 @@
 }
 
 .Video .icon .tooltip:before {
-
-
     height: 0px;
     width: 0px;
     background: #fff;
@@ -238,7 +183,6 @@
 
 .Video .icon:hover .tooltip {
     opacity: 1;
-
     top: 2px;
 
 }
@@ -247,6 +191,85 @@
 .Video .icon:hover .tooltip {
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0, 4);
 }
-.Fondo1 {
-    background-image: linear-gradient(130deg, #D7BDE2, #8E44AD, #fff);
+s.video {
+    display: flex;
+    justify-content: center;
+}
+
+.Video .icon span {
+    width: 80px;
+}
+
+s.video {
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*Seccion de primera imagen y sus cajas*/
+
+.imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 10%;
+    border: 20px #fff solid;
+    border-radius: 50% 50% 20px 20px;
+    background-image: linear-gradient(120deg, #D7BDE2, #8E44AD);
+    -webkit-box-shadow: 2px 28px 60px 27px rgba(136, 78, 160, 0.86);
+    -moz-box-shadow: 2px 28px 60px 27px rgba(136, 78, 160, 0.86);
+    box-shadow: 2px 28px 60px 27px rgba(136, 78, 160, 0.86);
+}
+.imagen {
+    margin-bottom: 100px;
+    width: 32%;
+}
+
+.imagen1 {
+     align-items: center;
+    justify-content: center;
+}
+
+.Imagen1edit {
+    margin-left: 50px;
+}
+.Imagen1edit {
+    display: flex;
+    justify-content: center;
+}
+
+/*Seccion emerson y Herbalife*/
+
+.Herbalife {
+    display: flex;
+    gap: 100px;
+}
+.Herbalife {
+  
+    background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(225, 187, 241, 1) 68%, rgba(255, 255, 255, 1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Herbalife h2 {
+    margin-left: 20%;
+    gap: 50px;
+    color: #909497
+}
+
+.emerson {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+    color: #909497;
+}
+
+.Herbalifebox {
+    display: flex;
+    align-items: center;
+    color: #909497
 }

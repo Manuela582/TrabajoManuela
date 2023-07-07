@@ -46,12 +46,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.cajacontenedoraP2 p {
-    margin-top: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #515A5A;
-    font-size: 1.5em;
-}
 
 .imginformacionFN {
 
@@ -63,6 +57,12 @@
     width: 25px;
     height: 25px;
     margin-right: 3%;
+}
+.cajacontenedoraP2 p {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #515A5A;
+    font-size: 1.5em;
 }
 
 .TextInfor2 {
